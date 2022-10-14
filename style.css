@@ -95,10 +95,29 @@ a{
     width:100vw;
     height:80vh;
 }
+.sub{
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.0em;
+    /* padding-left: 25% ;
+    padding-right: 25%;     */
+}
+p{
+    margin: 4%;
+    padding-right: 25%;
+}
+.pic2{
+    height:700px;
+    width:400px;
+}
+.left1{
+   
 
-.mage{
-    height:200px;
-    width: 200px;
+}
+.right{
+   
+
 }
 .img3{
     display: flex;
@@ -119,13 +138,7 @@ a{
     padding-top:2%;
     margin-top: 4%;
 }
-.sub{
-    display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 1.5em;
-    padding-left: 25% ;
-    padding-right: 25%;    
-}
+
 
 .skll{
     width:100vw;
