@@ -111,9 +111,15 @@ p{
     margin: 4%;
     padding-right: 25%;
 }
-.pic2{
+/* .pic2{
     height:700px;
     width:400px;
+} */
+.img4
+{
+    padding-right: 10%;
+    height:400px;
+    width: 500px;
 }
 .left1{
    
@@ -146,7 +152,7 @@ p{
 
 .skll{
     width:100vw;
-    height:85vh;
+    height:75vh;
 }
 .types{
     
@@ -227,6 +233,12 @@ p{
     border-radius: 5px;
      padding-top: 80px;
     padding: 30px; 
+}
+footer{
+    padding-left: 45%;
+    background-color: #0c0a0a;
+    color: white;
+
 }
 @media (max-width: 800px) {
     .sidebar{
