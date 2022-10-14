@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'Abril Fatface', sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    background: #654ea3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eaafc8, #654ea3); 
+  
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+     background-color: #0c0a0a;
+    color: #edeff3;
+    height: auto;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+    padding: 0 8%;
+}
+.pic{
+    width: 160px;
+    /* border: 1px solid wheat;  */
+}
+
+nav>ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+li{
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid transparent ;
+    cursor: pointer;
+    transition: .5s;
+   
+}
+li:hover{
+    border-bottom:1px solid rgb(233, 224, 224);
+    
+}
+.port{
+    font-size: 2em;
+    font-weight: 600;
+    margin-right:auto;
+}
+.content{
+     /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTX8VTlk0OF28x_q1PEkudXMC1fw0yxp49BvA&usqp=CAU");    */
+     background-size: cover;
+
+     background-repeat: no-repeat;
+     background-color: transparent; 
+    display: flex;
+    height: 100vh;
+}
+.left{
+    font-weight: 600;
+    width: 50%;
+    padding-top: 20%;
+    font-size: 2.5em;
+    padding-left: 10%;
+}
+.right
+{
+    width:50%;
+
+}
+.img2{
+    padding-top: 35%;
+    padding-left: 25%;
+    
+
+}
+a{
+    color: inherit;
+
+}
+.abtme{
+    width:100vw;
+    height:80vh;
+}
+
+.mage{
+    height:200px;
+    width: 200px;
+}
+.img3{
+    display: flex;
+    padding-left: 8%;
+    padding-top:5% ;
+    
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    align-items: center;
+    background-color: #0c0a0a;
+    color: white;
+    border:1px solid wheat;
+    /* margin-left:25% ;
+    margin-right: 25%; */
+    padding-top:2%;
+    margin-top: 4%;
+}
+.sub{
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+    padding-left: 25% ;
+    padding-right: 25%;    
+}
+
+.skll{
+    width:100vw;
+    height:85vh;
+}
+.types{
+    
+    margin: 30px auto;
+    width: 57vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sign{
+    background-color: transparent;
+    height: 150px;
+    width: 150px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sign>i{
+    font-size: 8em;
+} 
+.head2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: bolder;
+    padding-top: 12%;
+}
+ .contain{
+   
+     padding: 30px; 
+    display: flex; 
+    justify-content: center;
+    padding-top: 80px;
+    margin: 5px; 
+    border-radius: 5px;
+} 
+.last{
+     /* height: 100vh; */
+    width: 100vw; 
+}
+.icons i{
+    border: 1px solid rgb(34, 88, 236);
+    margin: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    color: rgb(21, 120, 233);
+    cursor: pointer;
+    font-size: 3em;
+    
+}
+.icons i:hover{
+    background-color: rgb(240, 232, 232);
+}
+
+.CHead{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+    align-items: center;
+}
+   .fom{
+    display: flex;
+    padding-left: 10%;
+    font-size: 1.5em;
+   
+   }
+   button{
+    color: inherit;
+
+   }
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    /* margin: 5px; */
+    border-radius: 5px;
+     padding-top: 80px;
+    padding: 30px; 
+}
+@media (max-width: 800px) {
+    .sidebar{
+        position: static;
+    flex-direction: column;
+    justify-content: center;}
+    a{
+        display:block;
+    }
+    nav>ul>li{
+        display: block;
+    }
+    .port{
+        font-size: 2em;
+        margin: 10px auto;
+    }
+    .content{
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+}
