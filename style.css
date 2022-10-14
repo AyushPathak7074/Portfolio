@@ -76,9 +76,13 @@ li:hover{
     font-size: 2.5em;
     padding-left: 10%;
 }
+hr
+{
+    size: 5px;
+}
 .right
 {
-    width:50%;
+     width:50%; 
 
 }
 .img2{
