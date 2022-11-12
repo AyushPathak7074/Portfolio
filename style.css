@@ -14,6 +14,7 @@ background: -webkit-linear-gradient(to right, #b46988, #654ea3);  /* Chrome 10-2
   background: linear-gradient(to right, #eaafc8, #654ea3); 
   
 }
+
 .sidebar{
     position: fixed;
     top: 0;
@@ -27,10 +28,14 @@ background: -webkit-linear-gradient(to right, #b46988, #654ea3);  /* Chrome 10-2
     align-items: center;
     padding: 0 8%;
 }
-.pic{
-    width: 160px;
-    /* border: 1px solid wheat;  */
+
+.pic1{
+    
+    margin-right: auto;
+    margin-left: 0%;
+
 }
+
 
 nav>ul{
     list-style-type: none;
@@ -58,10 +63,12 @@ li:hover{
 .port{
     font-size: 2em;
     font-weight: 600;
-    margin-right:auto;
+    margin-left: 0;
+     margin-right:auto; 
 }
 .content{
-     background-image: url("https://images.unsplash.com/photo-1492227982298-644b223e666d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60");  
+     background-image: url("https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDV8fDE2MDAqMTA3MHB4JTIwZGFya3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60");  
+      
      background-size: cover;
      color:white;
      background-repeat: no-repeat;
@@ -81,7 +88,10 @@ hr
     size: 5px;
 }
 .right
-{
+{    font-weight: 600;
+    padding-top: 20%;
+    font-size: 2.5em;
+    padding-left: 10%;
      width:50%; 
 
 }
@@ -101,6 +111,7 @@ a{
 }
 .sub{
     display: flex;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 2.0em;
@@ -152,7 +163,7 @@ p{
 
 .skll{
     width:100vw;
-    height:75vh;
+    /* height:95vh; */
 }
 .types{
     
@@ -160,7 +171,7 @@ p{
     width: 57vw;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+     justify-content: space-evenly; 
 }
 .sign{
     background-color: transparent;
@@ -219,14 +230,22 @@ p{
     display: flex;
     padding-left: 10%;
     font-size: 1.5em;
-   
+    position: relative;
+   justify-content: center;
    }
+   @media (max-width:502px){
+    .img4{
+        width: 100%;
+    }
+   }
+  
    button{
     color: inherit;
 
    }
 .icons{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: black;
     /* margin: 5px; */
@@ -245,6 +264,10 @@ footer{
         position: static;
     flex-direction: column;
     justify-content: center;}
+    .left{
+
+        font-size: 0.5em;
+    }
     a{
         display:block;
     }
@@ -261,7 +284,11 @@ footer{
         padding-bottom: 20px;
         justify-content: centers;
     }
-    .right{
-        position: relative;
+    .types{
+        flex-wrap: wrap;
     }
+.sub{
+    flex-wrap: wrap;
+}
+    
 }
